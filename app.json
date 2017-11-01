@@ -16,16 +16,27 @@
       "backgroundColor": "#ffffff"
     },
     "packagerOpts": {
-      "assetExts": ["ttf", "mp4"]
+      "assetExts": [
+        "ttf",
+        "mp4"
+      ]
     },
     "ios": {
       "supportsTablet": true,
       "buildNumber": "1",
-      "bundleIdentifier": "com.nama.playah"
+      "bundleIdentifier": "com.nama.playah",
+      "publishBundlePath": "ios/playah/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/playah/Supporting/shell-app-manifest.json"
     },
     "android": {
       "package": "com.nama.playah",
       "versionCode": 1
+    },
+    "isDetached": true,
+    "detach": {
+      "scheme": "exp927cd0e15f9342dd86e6d3d0ebfcabd5",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.0.4-sdk22.0.0-10110e7c-e9b1-43e6-b7e0-8a0e971480e8.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.0.0-exp.0-sdk22.0.0-bcb62dac-b993-47ff-951b-e8ecf086f9e0.tar.gz"
     }
   }
 }
