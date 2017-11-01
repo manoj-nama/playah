@@ -9,6 +9,7 @@
     "orientation": "portrait",
     "primaryColor": "#cccccc",
     "icon": "./assets/icon.png",
+    "scheme": "playah",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,7 +19,13 @@
       "assetExts": ["ttf", "mp4"]
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "1",
+      "bundleIdentifier": "com.nama.playah"
+    },
+    "android": {
+      "package": "com.nama.playah",
+      "versionCode": 1
     }
   }
 }
